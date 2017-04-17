@@ -1,0 +1,260 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	 font-family: eot_m;
+	 src: url("Exo2-Medium.eot") /* EOT file for IE */
+}
+@font-face {
+	 font-family: eot_m;
+	 src: url("Exo2-Medium.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+	 font-family: eot_t;
+	 src: url("Exo2-Thin.eot") /* EOT file for IE */
+}
+@font-face {
+	 font-family: eot_t;
+	 src: url("Exo2-Thin.ttf") /* TTF file for CSS3 browsers */
+}
+
+
+.header{
+	background: url(head_bb.png);
+	background-position: 0px 650px;
+	height: 650px;
+}
+.header_text{
+	text-align: center;
+	margin-top: 100px;
+	font-family: eot_m;
+}
+.header_text h1{
+	font-size: 60px;
+	font-family:  eot_t;
+	font-weight: bold;
+	/*text-transform: capitalize;*/
+}
+.header_text img{
+	margin: 20px;
+}
+#btn1{
+	padding: 10px 45px;
+	border: none;
+	cursor: pointer;
+	color: white;
+	text-transform: uppercase;
+	background: #ff6d6d;
+	margin: 15px
+	border-radius: 5px;
+	font-family: eot_m;
+}
+#btn1:hover{
+	background: rgba(255, 109, 109, 0.44);
+}
+.slider_text{
+	margin-top: 200px;
+	font-family: eot_m;
+}
+.slider_text h3{
+	font-size: 40px;
+	margin: 0;
+	margin-bottom: 20px;
+}
+.slider_text h6{
+	margin: 0;
+	font-weight: bold;
+	color: #ff6d6d;
+	text-transform: uppercase;
+}
+.slider_image img{
+	width: 100%;
+}
+.feature{
+	height: 675px;
+	background: url(feature_img.png);
+}
+.feature_title{
+	text-align: center;
+	margin-top: 150px;
+	margin-bottom: 100px;
+	font-family: eot_m;
+}
+.feature_title h3{
+	font-size: 40px;
+	margin: 0;
+}
+.feature_title h6{
+	margin: 0;
+	font-weight: bold;
+	color: #ff6d6d;
+	text-transform: uppercase;
+}
+.f_box{
+	text-align: center;
+	font-family: eot_m;
+
+}
+.design{
+	
+	/*border: 2px solid blue;*/
+}
+.design_tv{
+	height: 500px;
+	background: url(cut.png);
+	background-size: 500px 500px;
+	background-repeat: no-repeat;
+	padding-top: 90px;
+	/*background-position:  600px 0px;*/
+}
+.design_text{
+	margin-top: 150px;
+	font-family: eot_m;
+}
+.design_text h3{
+	font-size: 30px;
+	/*margin: 0;*/
+}
+.design_text h6{
+	margin: 0;
+	font-weight: bold;
+	color: #ff6d6d;
+	text-transform: uppercase;
+}
+.work{
+	background: url(work_bb.png);
+	padding: 80px 0px;
+}
+.w_box{
+	text-align: center;
+	color: white;
+	font-family: eot_m;
+}
+.w_box h6{
+	color: #ff8a8a;
+}
+.logo{
+	margin-top: 70px;
+}
+.some_new{
+		margin-top: 90px;
+}
+.sn_text{
+	text-align: center;
+	font-family: eot_m;
+}
+.sn_text h3{
+	font-size: 40px;
+	margin-top: 0;
+}
+.sn_text h6{
+	margin: 0;
+	font-weight: bold;
+	color: #ff6d6d;
+	text-transform: uppercase;
+}
+.sn_text img{
+	margin-top: 60px;
+}
+.over_use{
+	background: #323969;
+	padding: 90px 0px;
+	font-family: eot_m;
+}
+.ou_title{
+	text-align: center;
+}
+.ou_title h3{
+	font-size: 30px;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+.ou_title h6{
+	margin: 0;
+	font-weight: bold;
+	color: #ff6d6d;
+	text-transform: uppercase;
+}
+.ou_text{
+	color: white;
+	text-align: right;
+	margin: 20px 0px;
+}
+.over_use input{
+	width: 90%;
+	padding: 5px;
+	background: #464c77;
+	color: white;
+	border-radius: 3px;
+}
+#btn2{
+	width: 100%;
+	padding: 7px;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	color: white;
+	background: #ff6d6d;
+	border-radius: 3px;
+	font-family: eot_m;
+}
+.ou_te {
+	margin-top: 40px;
+	color: white;
+	text-align: center;
+}
+.footer{
+	padding: 40px 0px;
+	background: url(footer.png);
+	font-family: eot_m;
+}
+.footer ul{
+	list-style: none;
+}
+.footer input{
+	width: 100%;
+	padding: 6px;
+	margin-top: 10px;
+	background: url(btn.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.footer i{
+	margin-top: 20px;
+	padding: 7px;
+	color: #cbcbcb;
+}
+/*midia query*/
+@media (max-width: 767px) {
+	.header_text h1{
+		font-size: 40px;
+	}
+	.logo img{
+		margin-left: 30%;
+		margin-bottom: 15px;
+	}
+	#btn2{
+		width: 95%;
+	}
+	.over_use input{
+		margin-bottom: 15px;
+		width: 95%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.logo img{
+		margin-left: 40%;
+		margin-bottom: 15px;
+	}
+	#btn2{
+		width: 100%;
+	}
+	.over_use input{
+		margin-bottom: 15px;
+		width: 100%;
+	}
+}
